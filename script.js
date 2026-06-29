@@ -51,7 +51,7 @@ function verificacaoDePalpite(){
         feedback.innerHTML = ""
         let mensagemDeDica = document.createElement("h2")
         mensagemDeDica.id = "acerto"
-        mensagemDeDica.textContent = "Voce acertou!!!"
+        mensagemDeDica.textContent = "Você acertou!!!"
         feedback.appendChild(mensagemDeDica)
         //
         let numeroDeTentativas = document.createElement("h4")
